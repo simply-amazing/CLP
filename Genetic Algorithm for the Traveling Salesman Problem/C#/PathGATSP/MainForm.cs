@@ -33,7 +33,7 @@ namespace PathGATSP
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 StreamReader sr = new StreamReader(
-                    openFileDialog1.FileName);
+                     openFileDialog1.FileName);
 
                 string line = sr.ReadLine();
 
